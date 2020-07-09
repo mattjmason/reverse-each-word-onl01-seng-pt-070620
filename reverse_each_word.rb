@@ -1,5 +1,9 @@
 
 
-def reverse_each_word (phrase = "Hello there, and how are you?")
-  phrase.reverse!
+def reverse_each_word (phrase)
+  array = phrase.split("")
+  array.collect do |word|
+    word.reverse!
+  end
+  array.join("")
 end
