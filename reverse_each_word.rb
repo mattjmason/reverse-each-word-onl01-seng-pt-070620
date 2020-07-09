@@ -1,7 +1,6 @@
 
 
-def reverse_each_word 
-  reverse = []
-  reverse_each_word.each 
+def reverse_each_word (phrase = "Hello there, and how are you?")
+  phrase.reverse 
   
 end
